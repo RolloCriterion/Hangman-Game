@@ -223,7 +223,7 @@ std::string headerHungman::WrongLettersGuess(std::string Word)
                 }
         }
     }
-    std::cout << "Hai inserito le lettere: ";
+    std::cout << "Used Letters: ";
     for (int i = 0; i < CounterTry; i++)
     {
         std::cout << LettersTyped[i] << " ";
